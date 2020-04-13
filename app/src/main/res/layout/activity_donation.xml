@@ -1,0 +1,132 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DonationActivity">
+
+    <LinearLayout
+
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textSize="22sp"/>
+
+        <EditText
+            android:id="@+id/name_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" Enter Your Name"
+            android:inputType="textCapWords"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone No."
+            android:textSize="22sp"/>
+
+
+        <EditText
+            android:id="@+id/phnNo_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:hint=" Enter Your number"
+            android:inputType="phone"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADDRESS"
+            android:textSize="22sp"/>
+
+        <EditText
+            android:id="@+id/address_add"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Complete Address"
+            android:inputType="textMultiLine"
+            android:lines="5"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="16dp">
+        </EditText>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DATE"
+            android:textSize="22sp"/>
+
+
+        <EditText
+            android:id="@+id/date_add"
+            android:layout_height="wrap_content"
+            android:hint="Enter Date Of Donation"
+            android:inputType="date"
+            android:layout_width="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Availability Of"
+            android:textSize="18sp"/>
+
+        <CheckBox
+            android:id="@+id/lunch_CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:paddingLeft="24dp"
+            android:text="Lunch"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/dinner_CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:paddingLeft="24dp"
+            android:text="Dinner"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Capacity"
+            android:textSize="18sp"/>
+
+
+        <EditText
+            android:id="@+id/amount_add"
+            android:layout_height="wrap_content"
+            android:hint="Enter Food Serve For How Much People"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:onClick="order"
+            android:text="submit"
+            android:textSize="18sp"
+            android:textAllCaps="true"
+            android:background="@color/colorAccent"/>
+
+
+    </LinearLayout>
+</ScrollView>

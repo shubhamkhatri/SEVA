@@ -1,0 +1,168 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FoodActivity">
+
+    <LinearLayout
+
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textSize="22sp"/>
+
+        <EditText
+            android:id="@+id/name_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" Enter Your Name"
+            android:inputType="textCapWords"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone No."
+            android:textSize="22sp"/>
+
+
+        <EditText
+            android:id="@+id/phnNo_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:hint=" Enter Your number"
+            android:inputType="phone"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADDRESS"
+            android:textSize="22sp"/>
+
+        <EditText
+            android:id="@+id/address_add"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Complete Address"
+            android:inputType="textMultiLine"
+            android:lines="5"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="16dp">
+        </EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Please select food"
+            android:textAllCaps="true"
+            android:textSize="18sp"/>
+
+        <CheckBox
+            android:id="@+id/flour_CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:paddingLeft="24dp"
+            android:text="Flour"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/rice_CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:paddingLeft="24dp"
+            android:text="Rice"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/dal_CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:paddingLeft="24dp"
+            android:text="Dal"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/milk_CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:paddingLeft="24dp"
+            android:text="Milk"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/sugar_CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:paddingLeft="24dp"
+            android:text="Sugar"
+            android:textSize="16sp" />
+
+
+
+        <CheckBox
+            android:id="@+id/spices_CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:paddingLeft="24dp"
+            android:text="Spices"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/veg_CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:paddingLeft="24dp"
+            android:text="Vegetables"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="More details"
+            android:textAllCaps="true" />
+
+        <EditText
+            android:id="@+id/desc_add"
+            android:layout_height="wrap_content"
+            android:hint="Enter Left Out Items"
+            android:gravity="center_horizontal"
+            android:inputType="textMultiLine"
+            android:lines="5"
+            android:layout_width="match_parent"
+            android:background="@drawable/shape"
+            android:layout_marginBottom="16dp">
+        </EditText>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:onClick="order"
+            android:text="submit"
+            android:textSize="18sp"
+            android:textAllCaps="true"
+            android:background="@color/colorAccent"/>
+
+
+    </LinearLayout>
+</ScrollView>

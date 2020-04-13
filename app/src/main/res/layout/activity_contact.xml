@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".contactActivity"
+    android:orientation="vertical"
+    android:layout_margin="15dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EMAIL:"
+        android:textSize="32sp"
+        android:textColor="@color/textColorMain"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:id="@+id/email_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="shubhamkhatri234@gmail.com"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:onClick="emailOne"/>
+
+    <TextView
+        android:id="@+id/email_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sparshgoyal9@gmail.com"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:onClick="emailTwo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PHONE NO:"
+        android:textSize="32sp"
+        android:textColor="@color/textColorMain"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/phone_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9616488892"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:onClick="phoneOne"/>
+
+    <TextView
+        android:id="@+id/phone_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8171341529"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:onClick="phoneTwo"/>
+
+    <TextView
+        android:id="@+id/phone_three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9876543210"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:onClick="phoneThree"/>
+
+
+</LinearLayout>
